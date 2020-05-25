@@ -1,0 +1,12 @@
+01 - criar a pasta do projeto
+02 - ter node instalado
+03 - npm init -y
+04 - npm i cypress -D
+05 - ./node_modules/.bin/cypress open
+  - isso vai iniciar o cypress e criar todos os arquivos exemplo dele.
+06 - criar o script no package.json:
+  - "start": "./node_modules/.bin/cypress open"
+  - assim vai abrir direto o cypress quando escrever no terminal: "npm start"
+07 - aqui ele vai mostrar todos os testcases default pra dar uma ideia de o que o programa faz.
+08 - só funciona via testrunner (essa janela que abriou)
+09 - quando tu cria um caso novo é nessa janela que aparece
